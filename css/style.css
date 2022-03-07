@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.design,
+footer {
+	font-family: Lato;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0 auto;
+	max-width: 810px;
+	color: #424551;
+	padding: 0 0 0 0;
+}
+
+.heading {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1e212c;
+	margin-bottom: 35px;
+	padding-top: 50px;
+}
+
+.under-heading {
+	margin-bottom: 45px;
+}
+
+.calendar {
+	display: inline-block;
+	margin-right: 25px;
+	background: url(../img/Calendar.svg) left no-repeat;
+	padding: 0 0 0 25px;
+}
+
+.clock {
+	display: inline-block;
+	background: url(../img/Union.svg) left 4px no-repeat;
+	padding: 0 0 0 25px;
+	margin: 0 390px 0 0;
+}
+
+.under-heading-links {
+	display: inline-block;
+	width: 100px;
+}
+
+.share {
+	display: inline-block;
+	color: #1e212c;
+	font-weight: 700;
+	margin-right: 10px;
+}
+
+.facebook {
+	width: 25px;
+	height: 25px;
+}
+
+.twitter {
+	width: 30px;
+	height: 30px;
+	padding-left: 8px;
+}
+
+.in {
+	width: 30px;
+	height: 30px;
+	padding-left: 8px;
+}
+
+.img {
+	margin-bottom: 60px;
+}
+
+.paragraphs {
+	margin-bottom: 24px;
+}
+
+.paragraphs p {
+	margin-bottom: 24px;
+}
+
+.paragraphs p:nth-of-type(1),
+.paragraphs p:nth-of-type(4) {
+	font-size: 20px;
+	line-height: 1.5;
+	font-weight: 700;
+	color: #1e212c;
+}
+
+.paragraphs p:nth-of-type(3),
+.paragraphs p:nth-of-type(4) {
+	margin-bottom: 48px;
+}
+
+.paragraphs p:nth-of-type(4) {
+	padding: 0 0 0 55px;
+	background: url(../img/braces.svg) left top no-repeat;
+}
+
+.paragraphs *:last-child {
+	margin-bottom: 0;
+}
+
+.list {
+	margin-bottom: 24px;
+}
+
+.list li::before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(../img/check.svg) center no-repeat;
+	margin: 0 10px 0 -30px;
+}
+
+.list li {
+	margin-bottom: 4px;
+	padding: 0 0 0 35px;
+}
+
+.list *:last-child {
+	margin-bottom: 0;
+}
+
+.under-end {
+	max-width: 160px;
+	margin: 0 0 0 auto;
+	padding-top: 65px;
+	padding-bottom: 50px;
+}
+
+.under-end-links {
+	display: inline-block;
+	width: 100px;
+	
+}
+
+.share-two {
+	display: inline-block;
+	color: #1e212c;
+	font-weight: 700;
+	margin-right: 10px;
+}
+
+.facebook-two {
+	width: 25px;
+	height: 25px;
+}
+
+.twitter-two {
+	width: 30px;
+	height: 30px;
+	padding-left: 8px;
+}
+
+.in-two {
+	width: 30px;
+	height: 30px;
+	padding-left: 8px;
+}
+
+/*====================ВТОРАЯ СТРАНИЦА=====================*/
+
+.instruction{
+	font-size: 32px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	color: rgb(0, 110, 255);
+	max-width: 800px;
+}
+
+.game {
+	background: url(../img/nebo.jpg);
+	width: 800px;
+	margin: 0 auto;
+}
+
+.start{
+	max-width: 50px;
+	height: 50px;
+	color: rgb(255, 255, 255);
+	margin: 0 auto;
+	background: rgb(7, 104, 15);
+	text-align: center;
+	padding-top: 15px;
+}
+
+.road-one {
+	margin: 0 auto;
+	max-width: 50px;
+	height: 500px;
+	background: rgb(21, 255, 0);
+	visibility: hidden;
+}
+
+.road-two {
+	max-width: 425px;
+	height: 30px;
+	background: rgb(21, 255, 0);
+	visibility: hidden;
+}
+
+.road-three {
+	max-width: 20px;
+	height: 150px;
+	background: rgb(21, 255, 0);
+	visibility: hidden;
+}
+
+.road-four {
+	max-width: 12px;
+	height: 150px;
+	background: rgb(21, 255, 0);
+	visibility: hidden;	
+}
+
+.road-five {
+	max-width: 407px;
+	height: 30px;
+	background: rgb(21, 255, 0);
+	visibility: hidden;
+}
+
+.road-six {
+	max-width: 15px;
+	height: 150px;
+	background: rgb(21, 255, 0);
+	margin: 0 auto;
+	visibility: hidden;
+}
+
+.skala {
+	background: url(../img/skalasmile.jpg) center center / 150px 200px no-repeat;
+	margin: 0 auto;
+	width: 150px;
+	height: 200px;
+	visibility: hidden;
+}
+
+.start:hover + .road-one, .road-one:hover{
+	visibility: visible;
+}
+
+.road-one:hover + .road-two, .road-two:hover{
+	visibility: visible;
+}
+
+.road-two:hover + .road-three, .road-three:hover{
+	visibility: visible;
+}
+
+.road-three:hover + .road-four, .road-four:hover{
+	visibility: visible;
+}
+
+.road-four:hover + .road-five, .road-five:hover{
+	visibility: visible;
+}
+
+.road-five:hover + .road-six, .road-six:hover{
+	visibility: visible;
+}
+
+.road-six:hover + .skala, .skala:hover{
+	visibility: visible;
+} 
